@@ -11,20 +11,20 @@ from RAUSHAN.helper.PyroHelpers import ReplyCheck
 from RAUSHAN.modules.help import add_command_help
 from RAUSHAN.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/13f14g.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ⚡️ **\n\n"
+        f"** ⚡️ 𝐒𝐈𝐆𝐍𝐀𝐓𝐔𝐑𝐄 ⚡️ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ˼ ||](t.me/+qYRBJgZsARpkNWJl)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐔ᴘᴅᴀᴛᴇs](t.me/PROFESSOR_UPDATES)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐏ʀᴏғᴇssᴏʀ](t.me/PROFESSOR_77X)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ˼ ||](SIGNATURE_HUB)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝐔ᴘᴅᴀᴛᴇs](t.me/SIGNATURE_HUB)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [𝐏ʀᴏғᴇssᴏʀ](t.me/SIGNATURE_0101)"        
     )
 
 @Client.on_message(
